@@ -3,7 +3,7 @@ $onlyIf[$isAdmin[$authorID]==true;<a:Errado:1255457487918858301> **|** <@$author
 $description[## Bolist
 > Olá **$username** aqui é nosso painel de configuração para botlist configure desda canais, cargos até os sistemas.;1]
 $addField[Informações;
-> <:Icon_Azul:1255456608578961430> Premium: `Não.`
+> <:Icon_Azul:1255456608578961430> Premium: `Não.`;no;1]
 $color[$json[bot;cor;azul];1] $thumbnail[$userAvatar[$botID];1]
 
 $image[https://github.com/Demom23345/Quazar/blob/main/Database/Imagem/Banner_Comum.png?raw=true;2]
