@@ -2,8 +2,5 @@
    "cor": {
      "azul": "",
      "branco": "ffffff"
-   },
-   "message": {
-      "prefixo": "$toLowercase[$message[1]]"
    }
 }}
