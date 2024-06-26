@@ -2,6 +2,10 @@ $onlyIf[$isAdmin[$authorID]==true;<a:Errado:1255457487918858301> **|** <@$author
 
 $description[## Bolist
 > ;1]
-$color[$json[bot;cores;azul];1]
+$color[$json[bot;cor;azul];1]
 $image[https://github.com/Demom23345/Quazar/blob/main/Database/Imagem/Banner_Comum.png?raw=true;2]
-$color[$json[bot;cores;branco];2]
+$color[$json[bot;cor;branco];2]
+$newSelectMenu[menu;1;1;Selecione uma categoria]
+$addSelectMenuOption[menu;Canas;botlist/canais/$authorID;;no;<:icon_text:1255459996477423711>]
+$addSelectMenuOption[menu;Cargos;botlist/cargos/$authorID;;no;<:icons_roles:1255460540122140733>]
+$addSelectMenuOption[menu;Outros;botlist/outros/$authorID;;no;<:iconworld:1255460172357435433>]
