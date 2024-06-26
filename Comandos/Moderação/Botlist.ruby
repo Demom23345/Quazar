@@ -1,6 +1,6 @@
 $onlyIf[$isAdmin[$authorID]==true;<a:Errado:1255457487918858301> **|** <@$authorID>, você não tem permisão de `Administrador` para usar esse comando.]
 
-$description[## Bolist
+$description[## Botlist
 > Olá **$username** aqui é nosso painel de configuração para botlist configure desda canais, cargos até os sistemas.;1]
 $addField[Informações;
 > <:Icon_Azul:1255456608578961430> Premium: `Não.`;no;1]
