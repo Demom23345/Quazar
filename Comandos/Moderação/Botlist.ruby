@@ -1,4 +1,4 @@
-$onlyIf[$isAdmim[$authorID]==true;<a:Errado:1255457487918858301> **|** <@$authorID>, você não tem permisão de `Administrador` para usar esse comando.]
+$onlyIf[$isAdmin[$authorID]==true;<a:Errado:1255457487918858301> **|** <@$authorID>, você não tem permisão de `Administrador` para usar esse comando.]
 
 $description[## Bolist
 > ;1]
