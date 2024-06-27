@@ -1,6 +1,12 @@
 $removeAllComponents
 $description[## Canais
-> Olá **$username** aqui é nosso painel de configuração para botlist configure desda canais, cargos até os sistemas.;1]
+> Addbot: $if[$getServerVar[c1-botlist]==]`Não configurado`$elseif[$getServerVar[c1-botlist]!=]<#$getServerVar[c1-botlist]>$endif
+> Análises: $if[$getUserVar[c1-botlist;$botID;$guildID]==]`Não configurado`$elseif[$getUserVar[c1-botlist;$botID;$guildID]!=]<#$getUserVar[c1-botlist;$botID;$guildID]>$endif
+> Correios: $if[$getUserVar[c1-botlist;$serverOwner;$guildID]==]`Não configurado`$elseif[$getUserVar[c1-botlist;$serverOwner;$guildID]!=]<#$getUserVar[c1-botlist;$serverOwner;$guildID]>$endif
+> Logs Bot: $if[$getServerVar[c2-botlist]==]`Não configurado`$elseif[$getServerVar[c2-botlist]!=]<#$getServerVar[c2-botlist]>$endif
+> Logs Votos: $if[$getUserVar[c2-botlist;$botID;$guildID]==]`Não configurado`$elseif[$getUserVar[c2-botlist;$botID;$guildID]!=]<#$getUserVar[c2-botlist;$botID;$guildID]>$endif
+> Categoria Top 3 Bots: $if[$getUserVar[c2-botlist;$serverOwner;$guildID]==]`Não configurado`$elseif[$getUserVar[c2-botlist;$serverOwner;$guildID]!=]<#$getUserVar[c2-botlist;$serverOwner;$guildID]>$endif
+;1]
 
 $color[$json[bot;cor;azul];1] $thumbnail[$userAvatar[$botID];1]
 
