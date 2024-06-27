@@ -13,7 +13,7 @@ $var[l;$getTextSplitLength]
 
 $newSelectMenu[menu;1;1;Selecione um canal]
 
-$var[c;$|repeatMessage[$|if[|$var[l\]>=10\]10$|elseif[$|var[l\]<10\]$|var[l\]$|endif\;
+$var[c;$|repeatMessage[$|if[$|var[l\]>=10\]10$|elseif[$|var[l\]<10\]$|var[l\]$|endif\;
 $|var[v\;$|sub[$|var[v\]\;1\]\] $|var[canal\;$|channelType[$|channelID[$|splitText[$|var[v\]\]\]\]\]
 $|if[$|var[canal\]==text\]
 $|addSelectMenuOption[menu\;$|splitText[$|var[v\]\]\;botlist/canais/addbot/$|channelID[$|splitText[$|var[v\]\]\]\;\;no\;<:icon_text:1255459996477423711>\]
@@ -47,4 +47,4 @@ $|elseif[$|or[$|var[canal\]!=announcement\;$|var[canal\]!=text\]==true\]
 $|endif $|endif $|endif $|endif $|endif \]]
 
 
-$var[c]
+$replaceText[$var[c];|;;-1]
