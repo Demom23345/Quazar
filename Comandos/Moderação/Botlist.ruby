@@ -9,6 +9,8 @@ $color[$json[bot;cor;azul];1] $thumbnail[$userAvatar[$botID];1]
 $image[https://github.com/Demom23345/Quazar/blob/main/Database/Imagem/Banner_Comum.png?raw=true;2]
 $color[$json[bot;cor;branco];2]
 
+$removeAllComponents
+
 $newSelectMenu[menu;1;1;Selecione uma categoria]
 $addSelectMenuOption[menu;Canais;botlist/canais/$authorID;;no;<:icon_text:1255459996477423711>]
 $addSelectMenuOption[menu;Cargos;botlist/cargos/$authorID;;no;<:icons_roles:1255460540122140733>]
