@@ -13,38 +13,39 @@ $var[l;$getTextSplitLength]
 
 $newSelectMenu[menu;1;1;Selecione um canal]
 
-$var[c;$|repeatMessage[$|if[$|var[l\]>=10\]10$|elseif[$|var[l\]<10\]$|var[l\]$|endif\;
-$|var[v\;$|sub[$|var[v\]\;1\]\] $|var[canal\;$|channelType[$|channelID[$|splitText[$|var[v\]\]\]\]\]
+$var[c;$|repeatMessage[$|if[$|var[l\]>=10\]10$|elseif[$|var[l\]<10\]$|var[l\]$|endif%|{-SEMICOL-}%
+$|var[v%|{-SEMICOL-}%$|sub[$|var[v\]%|{-SEMICOL-}%1\]\] $|var[canal%|{-SEMICOL-}%$|channelType[$|channelID[$|splitText[$|var[v\]\]\]\]\]
 $|if[$|var[canal\]==text\]
-$|addSelectMenuOption[menu\;$|splitText[$|var[v\]\]\;botlist/canais/addbot/$|channelID[$|splitText[$|var[v\]\]\]\;\;no\;<:icon_text:1255459996477423711>\]
+$|addSelectMenuOption[menu%|{-SEMICOL-}%$|splitText[$|var[v\]\]%|{-SEMICOL-}%botlist/canais/addbot/$|channelID[$|splitText[$|var[v\]\]\]%|{-SEMICOL-}%%|{-SEMICOL-}%no%|{-SEMICOL-}%<:icon_text:1255459996477423711>\]
 $|elseif[$|var[canal\]==announcement\]
-$|addSelectMenuOption[menu;$|splitText[$|var[v\]\]\;botlist/canais/addbot/$|channelID[$|splitText[$|var[v\]\]\]\;\;no\;<:icons_announceIcon:1255692426232860672>\]
-$|elseif[$|or[$|var[canal\]!=announcement\;$|var[canal\]!=text\]==true\]
-$|var[v\;$|sub[$|var[v\]\;1\]\] $|var[canal\;$|channelType[$|channelID[$|splitText[$|var[v\]\]\]\]\]
+$|addSelectMenuOption[menu%|{-SEMICOL-}%$|splitText[$|var[v\]\]%|{-SEMICOL-}%botlist/canais/addbot/$|channelID[$|splitText[$|var[v\]\]\]\%|{-SEMICOL-}%%|{-SEMICOL-}%no%|{-SEMICOL-}%<:icons_announceIcon:1255692426232860672>\]
+$|elseif[$|or[$|var[canal\]!=announcement%|{-SEMICOL-}%$|var[canal\]!=text\]==true\]
+$var[c;$|repeatMessage[$|if[$|var[l\]>=10\]10$|elseif[$|var[l\]<10\]$|var[l\]$|endif%|{-SEMICOL-}%
+$|var[v%|{-SEMICOL-}%$|sub[$|var[v\]%|{-SEMICOL-}%1\]\] $|var[canal%|{-SEMICOL-}%$|channelType[$|channelID[$|splitText[$|var[v\]\]\]\]\]
 $|if[$|var[canal\]==text\]
-$|addSelectMenuOption[menu\;$|splitText[$|var[v\]\]\;botlist/canais/addbot/$|channelID[$|splitText[$|var[v\]\]\]\;\;no\;<:icon_text:1255459996477423711>\]
+$|addSelectMenuOption[menu%|{-SEMICOL-}%$|splitText[$|var[v\]\]%|{-SEMICOL-}%botlist/canais/addbot/$|channelID[$|splitText[$|var[v\]\]\]%|{-SEMICOL-}%%|{-SEMICOL-}%no%|{-SEMICOL-}%<:icon_text:1255459996477423711>\]
 $|elseif[$|var[canal\]==announcement\]
-$|addSelectMenuOption[menu;$|splitText[$|var[v\]\]\;botlist/canais/addbot/$|channelID[$|splitText[$|var[v\]\]\]\;\;no\;<:icons_announceIcon:1255692426232860672>\]
-$|elseif[$|or[$|var[canal\]!=announcement\;$|var[canal\]!=text\]==true\]
-$|var[v\;$|sub[$|var[v\]\;1\]\] $|var[canal\;$|channelType[$|channelID[$|splitText[$|var[v\]\]\]\]\]
+$|addSelectMenuOption[menu%|{-SEMICOL-}%$|splitText[$|var[v\]\]%|{-SEMICOL-}%botlist/canais/addbot/$|channelID[$|splitText[$|var[v\]\]\]\%|{-SEMICOL-}%%|{-SEMICOL-}%no%|{-SEMICOL-}%<:icons_announceIcon:1255692426232860672>\]
+$|elseif[$|or[$|var[canal\]!=announcement%|{-SEMICOL-}%$|var[canal\]!=text\]==true\]
+$var[c;$|repeatMessage[$|if[$|var[l\]>=10\]10$|elseif[$|var[l\]<10\]$|var[l\]$|endif%|{-SEMICOL-}%
+$|var[v%|{-SEMICOL-}%$|sub[$|var[v\]%|{-SEMICOL-}%1\]\] $|var[canal%|{-SEMICOL-}%$|channelType[$|channelID[$|splitText[$|var[v\]\]\]\]\]
 $|if[$|var[canal\]==text\]
-$|addSelectMenuOption[menu\;$|splitText[$|var[v\]\]\;botlist/canais/addbot/$|channelID[$|splitText[$|var[v\]\]\]\;\;no\;<:icon_text:1255459996477423711>\]
+$|addSelectMenuOption[menu%|{-SEMICOL-}%$|splitText[$|var[v\]\]%|{-SEMICOL-}%botlist/canais/addbot/$|channelID[$|splitText[$|var[v\]\]\]%|{-SEMICOL-}%%|{-SEMICOL-}%no%|{-SEMICOL-}%<:icon_text:1255459996477423711>\]
 $|elseif[$|var[canal\]==announcement\]
-$|addSelectMenuOption[menu;$|splitText[$|var[v\]\]\;botlist/canais/addbot/$|channelID[$|splitText[$|var[v\]\]\]\;\;no\;<:icons_announceIcon:1255692426232860672>\]
-$|elseif[$|or[$|var[canal\]!=announcement\;$|var[canal\]!=text\]==true\]
-$|var[v\;$|sub[$|var[v\]\;1\]\] $|var[canal\;$|channelType[$|channelID[$|splitText[$|var[v\]\]\]\]\]
+$|addSelectMenuOption[menu%|{-SEMICOL-}%$|splitText[$|var[v\]\]%|{-SEMICOL-}%botlist/canais/addbot/$|channelID[$|splitText[$|var[v\]\]\]\%|{-SEMICOL-}%%|{-SEMICOL-}%no%|{-SEMICOL-}%<:icons_announceIcon:1255692426232860672>\]
+$|elseif[$|or[$|var[canal\]!=announcement%|{-SEMICOL-}%$|var[canal\]!=text\]==true\]
+$var[c;$|repeatMessage[$|if[$|var[l\]>=10\]10$|elseif[$|var[l\]<10\]$|var[l\]$|endif%|{-SEMICOL-}%
+$|var[v%|{-SEMICOL-}%$|sub[$|var[v\]%|{-SEMICOL-}%1\]\] $|var[canal%|{-SEMICOL-}%$|channelType[$|channelID[$|splitText[$|var[v\]\]\]\]\]
 $|if[$|var[canal\]==text\]
-$|addSelectMenuOption[menu\;$|splitText[$|var[v\]\]\;botlist/canais/addbot/$|channelID[$|splitText[$|var[v\]\]\]\;\;no\;<:icon_text:1255459996477423711>\]
+$|addSelectMenuOption[menu%|{-SEMICOL-}%$|splitText[$|var[v\]\]%|{-SEMICOL-}%botlist/canais/addbot/$|channelID[$|splitText[$|var[v\]\]\]%|{-SEMICOL-}%%|{-SEMICOL-}%no%|{-SEMICOL-}%<:icon_text:1255459996477423711>\]
 $|elseif[$|var[canal\]==announcement\]
-$|addSelectMenuOption[menu;$|splitText[$|var[v\]\]\;botlist/canais/addbot/$|channelID[$|splitText[$|var[v\]\]\]\;\;no\;<:icons_announceIcon:1255692426232860672>\]
-$|elseif[$|or[$|var[canal\]!=announcement\;$|var[canal\]!=text\]==true\]
-$|var[v\;$|sub[$|var[v\]\;1\]\] $|var[canal\;$|channelType[$|channelID[$|splitText[$|var[v\]\]\]\]\]
-$|if[$|var[canal\]==text\]
-$|addSelectMenuOption[menu\;$|splitText[$|var[v\]\]\;botlist/canais/addbot/$|channelID[$|splitText[$|var[v\]\]\]\;\;no\;<:icon_text:1255459996477423711>\]
-$|elseif[$|var[canal\]==announcement\]
-$|addSelectMenuOption[menu;$|splitText[$|var[v\]\]\;botlist/canais/addbot/$|channelID[$|splitText[$|var[v\]\]\]\;\;no\;<:icons_announceIcon:1255692426232860672>\]
-$|elseif[$|or[$|var[canal\]!=announcement\;$|var[canal\]!=text\]==true\]
-$|endif $|endif $|endif $|endif $|endif \]]
+$|addSelectMenuOption[menu%|{-SEMICOL-}%$|splitText[$|var[v\]\]%|{-SEMICOL-}%botlist/canais/addbot/$|channelID[$|splitText[$|var[v\]\]\]\%|{-SEMICOL-}%%|{-SEMICOL-}%no%|{-SEMICOL-}%<:icons_announceIcon:1255692426232860672>\]
+$|elseif[$|or[$|var[canal\]!=announcement%|{-SEMICOL-}%$|var[canal\]!=text\]==true\]
+
+$|endif
+$|endif
+$|endif
+$|endif \]]
 
 
 $replaceText[$var[c];|;;-1]
