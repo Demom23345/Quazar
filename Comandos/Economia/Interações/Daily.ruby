@@ -35,4 +35,4 @@ $endif
 $var[cooldown;$calculate[((24-$hour)*3600)+((60-$minute)*60)+($second)]]
 $setVar[daily;$sum[$getTimestamp;$var[cooldown];7200];$authorID]
 
-$addButton[no;...;Daily Resgatado;primary;no;]
+$addButton[no;daily/$authorID;Daily Resgatado;primary;no;]
