@@ -1,5 +1,13 @@
 $jsonParse[{$getVar[economia;$authorID]}] $removeButtons
 
+$if[$json[user;daily]==0]
+$jsonSet[user;moeda;$sum[$json[user;moeda];500]]
+$setVar[economia;"user":$json[user];$authorID]
+$elseif[$json[user;daily]!=0]
+$jsonSet[user;moeda;$sum[$json[user;moeda];$calculate[$json[user;daily]*1000]]]
+$setVar[economia;"user":$json[user];$authorID]
+$endif
+
 $if[$json[user;daily]==10]
 $jsonSet[user;daily;0]
 $setVar[economia;$jsonStringify;$authorID]
@@ -7,9 +15,6 @@ $elseif[$json[user;daily]!=10]
 $jsonSet[user;daily;$sum[$json[user;daily];1]]
 $setVar[economia;"user":$json[user];$authorID]
 $endif
-
-$jsonSet[user;moeda;$sum[$json[user;moeda];$calculate[$json[user;daily]*1000]]]
-$setVar[economia;"user":$json[user];$authorID]
 
 $if[$json[user;daily]==0]
 https://github.com/Demom23345/Quazar/blob/main/Database/Imagem/Banner_Painel_Daily_00.jpg?raw=true
