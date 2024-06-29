@@ -22,7 +22,7 @@ $elseif[$json[user;daily]==10]
 https://github.com/Demom23345/Quazar/blob/main/Database/Imagem/Banner_Painel_Daily_10.jpg?raw=true
 $endif
 
-$var[z;$if[$getTimestamp>=$getVar[daily;$authorID]]yes$elseno$endif]
-$var[x;$if[$getTimestamp>=$getVar[daily;$authorID]]Volte Amanhã$elseResgatar Daily$endif]
+$var[z;$if[$getTimestamp<$getVar[daily;$authorID]]yes$elseif[$getTimestamp>=$getVar[daily;$authorID]]no$endif]
+$var[x;$if[$getTimestamp<$getVar[daily;$authorID]]Volte Amanhã$elseif[$getTimestamp>=$getVar[daily;$authorID]]Resgatar Daily$endif]
 
 $addButton[no;daily/$authorID;$var[x];primary;$var[z];]
