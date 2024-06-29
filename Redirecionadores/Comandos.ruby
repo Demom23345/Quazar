@@ -10,6 +10,8 @@ https://raw.githubusercontent.com/Demom23345/Quazar/main/Comandos/Economia/Pay.r
 
 $elseif[$or[$var[p]==botinfo;$var[p]==bi;$var[p]==infobot]==true]
 https://raw.githubusercontent.com/Demom23345/Quazar/main/Comandos/Utilidade/Botinfo.ruby
+$elseif[$or[$var[p]==userinfo;$var[p]==ui;$var[p]==infouser]==true]
+https://raw.githubusercontent.com/Demom23345/Quazar/main/Comandos/Utilidade/Userinfo.ruby
 
 $else
 https://raw.githubusercontent.com/Demom23345/Quazar/main/Redirecionadores/Inexistente.ruby
