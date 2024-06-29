@@ -5,27 +5,27 @@ https://raw.githubusercontent.com/Demom23345/Quazar/main/Comandos/Modera%C3%A7%C
 
 $elseif[$message==botlist/canais/addbot/$authorID]
 https://raw.githubusercontent.com/Demom23345/Quazar/main/Comandos/Modera%C3%A7%C3%A3o/Intera%C3%A7%C3%B5es/Botlist/Canais/Modal/Addbot.ruby
-$elseif[$customID==modal/canais/addbot]
+$elseif[$customID==modal/canal/addbot]
 https://raw.githubusercontent.com/Demom23345/Quazar/main/Comandos/Modera%C3%A7%C3%A3o/Intera%C3%A7%C3%B5es/Botlist/Canais/Enviar%20Modal/Addbot.ruby
 $elseif[$message==botlist/canais/correios/$authorID]
 https://raw.githubusercontent.com/Demom23345/Quazar/main/Comandos/Modera%C3%A7%C3%A3o/Intera%C3%A7%C3%B5es/Botlist/Canais/Modal/Correios.ruby
-$elseif[$customID==modal/canais/correios]
+$elseif[$customID==modal/canal/correios]
 https://raw.githubusercontent.com/Demom23345/Quazar/main/Comandos/Modera%C3%A7%C3%A3o/Intera%C3%A7%C3%B5es/Botlist/Canais/Enviar%20Modal/Correios.ruby
 $elseif[$message==botlist/canais/análises/$authorID]
 https://raw.githubusercontent.com/Demom23345/Quazar/main/Comandos/Modera%C3%A7%C3%A3o/Intera%C3%A7%C3%B5es/Botlist/Canais/Modal/Análises.ruby
-$elseif[$customID==modal/canais/análises]
+$elseif[$customID==modal/canal/análises]
 https://raw.githubusercontent.com/Demom23345/Quazar/main/Comandos/Modera%C3%A7%C3%A3o/Intera%C3%A7%C3%B5es/Botlist/Canais/Enviar%20Modal/Análises.ruby
 $elseif[$message==botlist/canais/logs-bot/$authorID]
 https://raw.githubusercontent.com/Demom23345/Quazar/main/Comandos/Modera%C3%A7%C3%A3o/Intera%C3%A7%C3%B5es/Botlist/Canais/Modal/Logs-Bot.ruby
-$elseif[$customID==modal/canais/logs-bot]
+$elseif[$customID==modal/canal/logs-bot]
 https://raw.githubusercontent.com/Demom23345/Quazar/main/Comandos/Modera%C3%A7%C3%A3o/Intera%C3%A7%C3%B5es/Botlist/Canais/Enviar%20Modal/Logs-Bot.ruby
 $elseif[$message==botlist/canais/logs-votos/$authorID]
 https://raw.githubusercontent.com/Demom23345/Quazar/main/Comandos/Modera%C3%A7%C3%A3o/Intera%C3%A7%C3%B5es/Botlist/Canais/Modal/Logs-Votos.ruby
-$elseif[$customID==modal/canais/logs-votos]
+$elseif[$customID==modal/canal/logs-votos]
 https://raw.githubusercontent.com/Demom23345/Quazar/main/Comandos/Modera%C3%A7%C3%A3o/Intera%C3%A7%C3%B5es/Botlist/Canais/Enviar%20Modal/Logs-Votos.ruby
 $elseif[$message==botlist/canais/categoria-top-3/$authorID]
 https://raw.githubusercontent.com/Demom23345/Quazar/main/Comandos/Modera%C3%A7%C3%A3o/Intera%C3%A7%C3%B5es/Botlist/Canais/Modal/Top-3-Bots.ruby
-$elseif[$customID==modal/canais/categoria-top-3]
+$elseif[$customID==modal/canal/categoria-top-3]
 https://raw.githubusercontent.com/Demom23345/Quazar/main/Comandos/Modera%C3%A7%C3%A3o/Intera%C3%A7%C3%B5es/Botlist/Canais/Enviar%20Modal/Top-3-Bots.ruby
 
 $elseif[$and[$textSplit[$message;/]$splitText[1]==botinfo;$splitText[2]==inicio;$splitText[3]==$authorID]==true]
