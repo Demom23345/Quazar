@@ -22,6 +22,6 @@ $elseif[$json[user;daily]==10]
 https://github.com/Demom23345/Quazar/blob/main/Database/Imagem/Banner_Painel_Daily_10.jpg?raw=true
 $endif
 
-$var[z;$if[$getTimestamp<=$getVar[daily;$authorID]]yes$elseno$endif]
+$var[z;$if[$getTimestamp<=$getVar[daily;$authorID]]no$elseyes$endif]
 
 $addButton[no;daily/$authorID;Resgatar Daily;primary;no;]
