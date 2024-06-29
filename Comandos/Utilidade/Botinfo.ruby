@@ -9,3 +9,7 @@ $image[https://github.com/Demom23345/Quazar/blob/main/Database/Imagem/Banner_Com
 
 $newSelectMenu[menu;1;1;› Minhas Informações]
 $addSelectMenuOption[menu;Voltar ao Inicio;botinfo/inicio/$authorID;;no;<:Icon_House:1255460397922783252>]
+$addSelectMenuOption[menu;Mais Sobre Mim;botinfo/sobre-mim/$authorID;;no;<:icons_bot:1255461240709447693>]
+$addSelectMenuOption[menu;Desenvolvedores;botinfo/developers/$authorID;;no;<:Icons_utility:1255685624078536755>]
+$addButton[no;$getBotInvite;Me Adicione;link;no]
+$addButton[no;https://dsc.gg/quazar-botlist;Suporte & Botlist;link;no]
