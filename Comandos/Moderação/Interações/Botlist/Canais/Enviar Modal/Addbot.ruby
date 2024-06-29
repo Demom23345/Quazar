@@ -7,6 +7,7 @@ $elseif[$or[$channelType[$input[1]]==text;$channelType[$input[1]]==announcement]
 
 $else
 
+$setServerVar[c1-botlist;$input[1]]
 $description[## Canais
 > Addbot: $if[$getServerVar[c1-botlist]==]`Não configurado`$elseif[$getServerVar[c1-botlist]!=]<#$getServerVar[c1-botlist]>$endif
 > Análises: $if[$getUserVar[c1-botlist;$botID;$guildID]==]`Não configurado`$elseif[$getUserVar[c1-botlist;$botID;$guildID]!=]<#$getUserVar[c1-botlist;$botID;$guildID]>$endif
