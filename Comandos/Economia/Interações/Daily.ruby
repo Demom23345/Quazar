@@ -8,6 +8,9 @@ $jsonSet[user;daily;$sum[$json[user;daily];1]]
 $setVar[economia;$jsonStringify;$authorID]
 $endif
 
+$jsonSet[user;moeda;$calculate[$json[user;daily]*1000]]
+$setVar[economia;$jsonStringify;$authorID]
+
 $if[$json[user;daily]==0]
 https://github.com/Demom23345/Quazar/blob/main/Database/Imagem/Banner_Painel_Daily_00.jpg?raw=true
 $elseif[$json[user;daily]==1]
