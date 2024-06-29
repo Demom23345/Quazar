@@ -45,5 +45,5 @@ $setVar[daily;$sum[$getTimestamp;$var[cooldown];7200];$authorID]
 
 $addButton[no;daily/$authorID;Daily Resgatado;primary;yes;]
 
-$description[## Daily Resgatado
-> Você resgatou um total de **$numberSeparator[$calculate[$json[user;daily]*1000]] moedas**, volte depois das <t:$getVar[daily;$authorID]:t> para resgatar sua proxima recompensa!]
+$sendMessage[## Daily Resgatado
+> Você resgatou um total de **$numberSeparator[$calculate[$json[user;daily]*1000]] moedas**, volte depois das <t:$getVar[daily;$authorID]:t> para resgatar sua proxima recompensa!;no]
