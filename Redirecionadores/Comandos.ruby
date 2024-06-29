@@ -5,6 +5,8 @@ $elseif[$or[$var[p]==bal;$var[p]==atm;$var[p]==saldo]==true]
 https://raw.githubusercontent.com/Demom23345/Quazar/main/Comandos/Economia/Bal.ruby
 $elseif[$or[$var[p]==claim;$var[p]==resgatar;$var[p]==daily]==true]
 https://raw.githubusercontent.com/Demom23345/Quazar/main/Comandos/Economia/Daily.ruby
+$elseif[$or[$var[p]==pay;$var[p]==pagar;$var[p]==pix]==true]
+https://raw.githubusercontent.com/Demom23345/Quazar/main/Comandos/Economia/Pay.ruby
 
 $else
 https://raw.githubusercontent.com/Demom23345/Quazar/main/Redirecionadores/Inexistente.ruby
