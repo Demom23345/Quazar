@@ -1,10 +1,3 @@
-$textSplit[$customID;/]
-$if[$authorID==$splitText[2]]
-$ephemral
-# 😜 Humm..
-> Tá tentando pegar recompensa do <@$splitText[2]> tenta na proxima... kkkk
-$elseif[$authorID!=$splitText[2]]
-
 $removeButtons
 
 $if[$json[user;daily]==10]
@@ -54,4 +47,4 @@ $addButton[no;daily/$authorID;Daily Resgatado;primary;yes;]
 
 $sendMessage[## Daily Resgatado
 > <@$authorID>, você resgatou um total de **$numberSeparator[$calculate[$json[user;daily]*1000]] moedas**, volte depois das <t:$getVar[daily;$authorID]:t> para resgatar sua proxima recompensa!;no]
-$endif
+
