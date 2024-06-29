@@ -9,10 +9,10 @@ $setVar[economia;"user":$optOff[$json[user]];$authorID]
 $endif
 
 $if[$json[user;daily]==10]
-$jsonSet[user;moeda;$sum[$json[user;moeda];1000]]
+$jsonSet[user;moeda;$sum[$json[user;moeda];$random[100;1000]]]
 $setVar[economia;"user":$optOff[$json[user]];$authorID]
 $elseif[$json[user;daily]!=10]
-$jsonSet[user;moeda;$sum[$json[user;moeda];1000]]
+$jsonSet[user;moeda;$sum[$json[user;moeda];$random[1000;10000]]]
 $setVar[economia;"user":$optOff[$json[user]];$authorID]
 $endif
 
