@@ -24,4 +24,4 @@ $addSelectMenuOption[menu-2;Análises;botlist/canais/análises/$authorID;;no;<:i
 $addSelectMenuOption[menu-2;Correios;botlist/canais/correios/$authorID;;no;<:icon_text:1255459996477423711>]
 $addSelectMenuOption[menu-2;Logs Bot;botlist/canais/logs-bot/$authorID;;no;<:icon_text:1255459996477423711>]
 $addSelectMenuOption[menu-2;Logs Votos;botlist/canais/logs-votos/$authorID;;no;<:icon_text:1255459996477423711>]
-$addSelectMenuOption[menu-2;Categoria Top 3 Bots;botlist/canais/-categoria-top-3/$authorID;;no;<:icon_text:1255459996477423711>]
+$addSelectMenuOption[menu-2;Categoria Top 3 Bots;botlist/canais/categoria-top-3/$authorID;;no;<:icon_text:1255459996477423711>]
