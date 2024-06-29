@@ -8,7 +8,7 @@ https://raw.githubusercontent.com/Demom23345/Quazar/main/Comandos/Economia/Daily
 $elseif[$or[$var[p]==pay;$var[p]==pagar;$var[p]==pix]==true]
 https://raw.githubusercontent.com/Demom23345/Quazar/main/Comandos/Economia/Pay.ruby
 
-$elseif[$or[$var[p]==help;$var[p]==ajuda;$var[p]==comandos]==true]
+$elseif[$or[$var[p]==botinfo;$var[p]==bi;$var[p]==infobot]==true]
 https://raw.githubusercontent.com/Demom23345/Quazar/main/Comandos/Utilidade/Ajuda.ruby
 
 $else
