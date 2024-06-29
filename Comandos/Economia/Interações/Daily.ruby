@@ -8,11 +8,11 @@ $jsonSet[user;daily;$sum[$json[user;daily];1]]
 $setVar[economia;"user":$optOff[$json[user]];$authorID]
 $endif
 
-$if[$json[user;daily]==0]
-$jsonSet[user;moeda;$sum[$json[user;moeda];500]]
+$if[$json[user;daily]==10]
+$jsonSet[user;moeda;$sum[$json[user;moeda];1000]]
 $setVar[economia;"user":$optOff[$json[user]];$authorID]
-$elseif[$json[user;daily]!=0]
-$jsonSet[user;moeda;$sum[$json[user;moeda];$calculate[$json[user;daily]*1000]]]
+$elseif[$json[user;daily]!=10]
+$jsonSet[user;moeda;$sum[$json[user;moeda];1000]]
 $setVar[economia;"user":$optOff[$json[user]];$authorID]
 $endif
 
