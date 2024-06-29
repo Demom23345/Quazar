@@ -16,7 +16,7 @@ $addSelectMenuOption[menu-1;Canais;botlist/canais/$authorID;;no;<:icon_text:1255
 $addSelectMenuOption[menu-1;Cargos;botlist/cargos/$authorID;;no;<:icons_roles:1255460540122140733>]
 $addSelectMenuOption[menu-1;Outros;botlist/outros/$authorID;;no;<:iconworld:1255460172357435433>]
 
-$newSelectMenu[menu-2;1;1;› Configurar Canais]
+$newSelectMenu[menu-2;1;1;› Configurar Cargos]
 $addSelectMenuOption[menu-2;Bot em Análise;botlist/cargos/bot-em-análise/$authorID;;no;<:icons_roles:1255460540122140733>]
 $addSelectMenuOption[menu-2;Bot Análisado;botlist/cargos/bot-análisado/$authorID;;no;<:icons_roles:1255460540122140733>]
 $addSelectMenuOption[menu-2;Developer;botlist/cargos/developer/$authorID;;no;<:icons_roles:1255460540122140733>]
