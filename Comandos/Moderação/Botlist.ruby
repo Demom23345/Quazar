@@ -4,12 +4,9 @@ $description[## Botlist
 > Olá **$username** aqui é nosso painel de configuração para botlist configure desde canais, cargos até os sistemas.;1]
 $addField[Informações;
 > <:Icon_Azul:1255456608578961430> Premium: `Não.`;no;1]
-$color[$json[bot;cor;azul];1] $thumbnail[$userAvatar[$botID];1]
 
+$color[$json[bot;cor;azul];1] $color[$json[bot;cor;branco];2] $removeAllComponents
 $image[https://github.com/Demom23345/Quazar/blob/main/Database/Imagem/Banner_Comum.png?raw=true;2]
-$color[$json[bot;cor;branco];2]
-
-$removeAllComponents
 
 $newSelectMenu[menu-1;1;1;› Selecionar Configuração]
 $addSelectMenuOption[menu-1;Canais;botlist/canais/$authorID;;no;<:icon_text:1255459996477423711>]
