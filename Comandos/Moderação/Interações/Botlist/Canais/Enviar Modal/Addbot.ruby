@@ -1,6 +1,6 @@
 $removeAllComponents
-$if[$channelExists[$input[1]]==false] $ephemeral
-<a:lc_erado:1247216925654782116> **|** <@$authorID>, o canal enviado não existe ou não é um canal.
+$if[$serverChannelExists[$input[1]]==false] $ephemeral
+<a:lc_erado:1247216925654782116> **|** <@$authorID>, o canal enviado não existe nesse servidor ou não é um canal.
 
 $elseif[$or[$channelType[$input[1]]==text;$channelType[$input[1]]==announcement]==false] $ephemeral
 <a:lc_erado:1247216925654782116> **|** <@$authorID>, o canal enviado não é um canal de texto valido.
