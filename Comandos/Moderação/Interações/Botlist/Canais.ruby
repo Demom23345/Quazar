@@ -5,7 +5,7 @@ $description[## Canais
 > Correios: $if[$getUserVar[c1-botlist;$serverOwner;$guildID]==]`Não configurado`$elseif[$getUserVar[c1-botlist;$serverOwner;$guildID]!=]<#$getUserVar[c1-botlist;$serverOwner;$guildID]>$endif
 > Logs Bot: $if[$getServerVar[c2-botlist]==]`Não configurado`$elseif[$getServerVar[c2-botlist]!=]<#$getServerVar[c2-botlist]>$endif
 > Logs Votos: $if[$getUserVar[c2-botlist;$botID;$guildID]==]`Não configurado`$elseif[$getUserVar[c2-botlist;$botID;$guildID]!=]<#$getUserVar[c2-botlist;$botID;$guildID]>$endif
-> Categoria Top 3 Bots: $if[$getUserVar[c2-botlist;$serverOwner;$guildID]==]`Não configurado`$elseif[$getUserVar[c2-botlist;$serverOwner;$guildID]!=]<#$getUserVar[c2-botlist;$serverOwner;$guildID]>$endif
+> Categoria Top 3 Bots: $if[$getUserVar[c2-botlist;$serverOwner;$guildID]==]`Não configurado`$elseif[$getUserVar[c2-botlist;$serverOwner;$guildID]!=]**<#$getUserVar[c2-botlist;$serverOwner;$guildID]>**$endif
 ;1]
 
 $color[$json[bot;cor;azul];1] $color[$json[bot;cor;branco];2]
