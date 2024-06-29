@@ -11,7 +11,7 @@ $color[$json[bot;cor;branco];2]
 
 $removeAllComponents
 
-$newSelectMenu[menu;1;1;Selecione uma categoria]
-$addSelectMenuOption[menu;Canais;botlist/canais/$authorID;;no;<:icon_text:1255459996477423711>]
-$addSelectMenuOption[menu;Cargos;botlist/cargos/$authorID;;no;<:icons_roles:1255460540122140733>]
-$addSelectMenuOption[menu;Outros;botlist/outros/$authorID;;no;<:iconworld:1255460172357435433>]
+$newSelectMenu[menu-1;1;1;› Selecionar Configuração]
+$addSelectMenuOption[menu-1;Canais;botlist/canais/$authorID;;no;<:icon_text:1255459996477423711>]
+$addSelectMenuOption[menu-1;Cargos;botlist/cargos/$authorID;;no;<:icons_roles:1255460540122140733>]
+$addSelectMenuOption[menu-1;Outros;botlist/outros/$authorID;;no;<:iconworld:1255460172357435433>]
