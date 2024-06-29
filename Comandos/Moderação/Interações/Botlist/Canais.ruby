@@ -8,7 +8,7 @@ $description[## Canais
 > Categoria Top 3 Bots: $if[$getUserVar[c2-botlist;$serverOwner;$guildID]==]`Não configurado`$elseif[$getUserVar[c2-botlist;$serverOwner;$guildID]!=]<#$getUserVar[c2-botlist;$serverOwner;$guildID]>$endif
 ;1]
 
-$color[$json[bot;cor;azul];1] $thumbnail[$userAvatar[$botID];1]
+$color[$json[bot;cor;azul];1]
 
 $image[https://github.com/Demom23345/Quazar/blob/main/Database/Imagem/Banner_Comum.png?raw=true;2]
 $color[$json[bot;cor;branco];2]
