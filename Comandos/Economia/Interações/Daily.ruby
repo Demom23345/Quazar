@@ -2,18 +2,18 @@ $removeButtons
 
 $if[$json[user;daily]==10]
 $jsonSet[user;daily;0]
-$setVar[economia;$jsonStringify;$authorID]
+$setVar[economia;"user":$optOff[$json[user]];$authorID]
 $elseif[$json[user;daily]!=10]
 $jsonSet[user;daily;$sum[$json[user;daily];1]]
-$setVar[economia;"user":$json[user];$authorID]
+$setVar[economia;"user":$optOff[$json[user]];$authorID]
 $endif
 
 $if[$json[user;daily]==0]
 $jsonSet[user;moeda;$sum[$json[user;moeda];500]]
-$setVar[economia;"user":$json[user];$authorID]
+$setVar[economia;"user":$optOff[$json[user]];$authorID]
 $elseif[$json[user;daily]!=0]
 $jsonSet[user;moeda;$sum[$json[user;moeda];$calculate[$json[user;daily]*1000]]]
-$setVar[economia;"user":$json[user];$authorID]
+$setVar[economia;"user":$optOff[$json[user]];$authorID]
 $endif
 
 $if[$json[user;daily]==0]
