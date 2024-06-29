@@ -8,7 +8,7 @@ $jsonSet[user;daily;$sum[$json[user;daily];1]]
 $setVar[economia;"user":$json[user];$authorID]
 $endif
 
-$jsonSet[user;moeda;$calculate[$json[user;daily]*1000]]
+$jsonSet[user;moeda;$sum[$json[user;moeda];$calculate[$json[user;daily]*1000]]]
 $setVar[economia;"user":$json[user];$authorID]
 
 $if[$json[user;daily]==0]
@@ -38,4 +38,4 @@ $endif
 $var[cooldown;$calculate[((24-$hour)*3600)+((60-$minute)*60)+($second)]]
 $setVar[daily;$sum[$getTimestamp;$var[cooldown];7200];$authorID]
 
-$addButton[no;daily/$authorID;Daily Resgatado;primary;no;]
+$addButton[no;daily/$authorID;Daily Resgatado;primary;yes;]
