@@ -25,5 +25,3 @@ $addSelectMenuOption[menu-2;Correios;botlist/canais/correios/$authorID;;no;<:ico
 $addSelectMenuOption[menu-2;Logs Bot;botlist/canais/logs-bot/$authorID;;no;<:icon_text:1255459996477423711>]
 $addSelectMenuOption[menu-2;Logs Votos;botlist/canais/logs-votos/$authorID;;no;<:icon_text:1255459996477423711>]
 $addSelectMenuOption[menu-2;Categoria Top 3 Bots;botlist/canais/-categoria-top-3/$authorID;;no;<:icon_text:1255459996477423711>]
-
-$addButton[no;botlist/voltar/$authorID;Voltar;secondary;no;<:voltar_2:1248243543441670234>]
