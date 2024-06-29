@@ -5,13 +5,13 @@ https://raw.githubusercontent.com/Demom23345/Quazar/main/Comandos/Modera%C3%A7%C
 
 $elseif[$message==botlist/canais/addbot/$authorID]
 https://raw.githubusercontent.com/Demom23345/Quazar/main/Comandos/Modera%C3%A7%C3%A3o/Intera%C3%A7%C3%B5es/Botlist/Canais/Modal/Addbot.ruby
-$elseif[$message==modal/canais/addbot]
+$elseif[$customID==modal/canais/addbot]
 https://raw.githubusercontent.com/Demom23345/Quazar/main/Comandos/Modera%C3%A7%C3%A3o/Intera%C3%A7%C3%B5es/Botlist/Canais/Enviar%20Modal/Addbot.ruby
 $elseif[$message==botlist/canais/correios/$authorID]
 https://raw.githubusercontent.com/Demom23345/Quazar/main/Comandos/Modera%C3%A7%C3%A3o/Intera%C3%A7%C3%B5es/Botlist/Canais/Modal/Correios.ruby
 $elseif[$message==botlist/canais/análises/$authorID]
 https://raw.githubusercontent.com/Demom23345/Quazar/main/Comandos/Modera%C3%A7%C3%A3o/Intera%C3%A7%C3%B5es/Botlist/Canais/Modal/Análises.ruby
-$elseif[$message==modal/canais/análises]
+$elseif[$customID==modal/canais/análises]
 https://raw.githubusercontent.com/Demom23345/Quazar/main/Comandos/Modera%C3%A7%C3%A3o/Intera%C3%A7%C3%B5es/Botlist/Canais/Enviar%20Modal/Análises.ruby
 $elseif[$message==botlist/canais/logs-bot/$authorID]
 https://raw.githubusercontent.com/Demom23345/Quazar/main/Comandos/Modera%C3%A7%C3%A3o/Intera%C3%A7%C3%B5es/Botlist/Canais/Modal/Logs-Bot.ruby
