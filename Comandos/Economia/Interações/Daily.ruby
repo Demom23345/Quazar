@@ -1,4 +1,4 @@
-$jsonParse[{$getVar[economia;$authorID]}] $removeButtons
+$removeButtons
 
 $if[$json[user;daily]==10]
 $jsonSet[user;daily;0]
@@ -44,3 +44,6 @@ $var[cooldown;$calculate[((24-$hour)*3600)+((60-$minute)*60)+($second)]]
 $setVar[daily;$sum[$getTimestamp;$var[cooldown];7200];$authorID]
 
 $addButton[no;daily/$authorID;Daily Resgatado;primary;yes;]
+
+$description[## Daily Resgatado
+> Você resgatou um total de **$numberSeparator[$calculate[$json[user;daily]*1000]] moedas**, volte depois das <t:$getVar[daily;$authorID]:t> para resgatar sua proxima recompensa!]
