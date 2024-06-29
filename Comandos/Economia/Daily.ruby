@@ -23,5 +23,6 @@ https://github.com/Demom23345/Quazar/blob/main/Database/Imagem/Banner_Painel_Dai
 $endif
 
 $var[z;$if[$getTimestamp<=$getVar[daily;$authorID]]yes$elseno$endif]
+$var[x;$if[$getTimestamp<=$getVar[daily;$authorID]]Volte Amanhã$elseResgatar Daily$endif]
 
-$addButton[no;daily/$authorID;Resgatar Daily;primary;$var[z];]
+$addButton[no;daily/$authorID;$var[x];primary;$var[z];]
