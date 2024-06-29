@@ -2,7 +2,10 @@ $author[Minhas Informações;1] $authorIcon[$userAvatar[$botID];1]
 $description[# [$username[$botID]\](https://discord.com/channels/$botID);1]
 
 $addField[Estatísticas;
-> 
+> Ping: **$pingms**
+> Node Versão: **$nodeVersion**
+> Node ID: **$botNode**
+> Minha Versão: **1.4**
 ;no;1]
 
 $addField[Linguagem de Programação;
