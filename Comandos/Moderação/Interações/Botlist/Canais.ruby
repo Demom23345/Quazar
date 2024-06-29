@@ -18,7 +18,7 @@ $addSelectMenuOption[menu-1;Canais;botlist/canais/$authorID;;no;<:icon_text:1255
 $addSelectMenuOption[menu-1;Cargos;botlist/cargos/$authorID;;no;<:icons_roles:1255460540122140733>]
 $addSelectMenuOption[menu-1;Outros;botlist/outros/$authorID;;no;<:iconworld:1255460172357435433>]
 
-$newSelectMenu[menu-2;1;1;Selecione uma categoria]
+$newSelectMenu[menu-2;1;1;› Configurar Canais]
 $addSelectMenuOption[menu-2;Addbot;botlist/canais/addbot/$authorID;;no;<:icon_text:1255459996477423711>]
 $addSelectMenuOption[menu-2;Análises;botlist/canais/análises/$authorID;;no;<:icon_text:1255459996477423711>]
 $addSelectMenuOption[menu-2;Correios;botlist/canais/correios/$authorID;;no;<:icon_text:1255459996477423711>]
