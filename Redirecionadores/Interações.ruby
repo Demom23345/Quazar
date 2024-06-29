@@ -17,6 +17,8 @@ $elseif[$customID==modal/canais/análises]
 https://raw.githubusercontent.com/Demom23345/Quazar/main/Comandos/Modera%C3%A7%C3%A3o/Intera%C3%A7%C3%B5es/Botlist/Canais/Enviar%20Modal/Análises.ruby
 $elseif[$message==botlist/canais/logs-bot/$authorID]
 https://raw.githubusercontent.com/Demom23345/Quazar/main/Comandos/Modera%C3%A7%C3%A3o/Intera%C3%A7%C3%B5es/Botlist/Canais/Modal/Logs-Bot.ruby
+$elseif[$customID==modal/canais/logs-bot]
+https://raw.githubusercontent.com/Demom23345/Quazar/main/Comandos/Modera%C3%A7%C3%A3o/Intera%C3%A7%C3%B5es/Botlist/Canais/Enviar%20Modal/Logs-Bot.ruby
 $elseif[$message==botlist/canais/logs-votos/$authorID]
 https://raw.githubusercontent.com/Demom23345/Quazar/main/Comandos/Modera%C3%A7%C3%A3o/Intera%C3%A7%C3%B5es/Botlist/Canais/Modal/Logs-Votos.ruby
 $elseif[$message==botlist/canais/categoria-top-3/$authorID]
