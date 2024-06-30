@@ -1,4 +1,8 @@
 $removeButtons
+$if[$getTimestamp<$getVar[daily;$authorID]]
+$ephemeral 
+<a:lc_erado:1247216925654782116> **|** <@$authorID>, você já coletou sua recompensa diaria de hoje, volte amanhã!
+$elseif[$getTimestamp>=$getVar[daily;$authorID]]
 
 $if[$json[user;daily]==10]
 $jsonSet[user;daily;0]
@@ -47,4 +51,4 @@ $addButton[no;daily/$authorID;Daily Resgatado;primary;yes;]
 
 $sendMessage[## Daily Resgatado
 > <@$authorID>, você resgatou um total de **$numberSeparator[$calculate[$json[user;daily]*1000]] moedas**, volte depois das <t:$getVar[daily;$authorID]:t> para resgatar sua proxima recompensa!;no]
-
+$endif
