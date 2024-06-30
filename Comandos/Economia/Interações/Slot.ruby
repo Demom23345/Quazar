@@ -1,8 +1,8 @@
 $textSplit[$customID;/]
 $var[valor;$splitText[2]]
-$var[user;$splitText[3]]
+$var[user;$splitText[4]]
 $var[r;$randomText[ganhou;perdeu]]
-$var[t;$splitText[4]]
+$var[t;$splitText[3]]
      
 $if[$json[user;moeda]>=$var[valor]]
 $ephemeral
