@@ -12,8 +12,8 @@ $else
 $if[$var[r]==ganhou]
   
 $description[## $toTitleCase[$splitText[4]]
-> **$username** você apostou **$var[valor] moedas** e ganhou, veja o resultado abaixo!
-- Você recebeu **$var[valor] moedas**
+> **$username** você apostou **$numberSeparator[$var[valor]] moedas** e ganhou, veja o resultado abaixo!
+- Você recebeu **$numberSeparator[$var[valor]] moedas**
 > Aposte novamente o mesmo valor usando o botão abaixo.;1]
 $color[$json[bot;cor;azul];1] $color[$json[bot;cor;branco];2] $thumbnail[$authorAvatar;1]
 $image[https://raw.githubusercontent.com/Demom23345/Quazar/main/Database/Imagem/Banner_Painel_Slot_0$random[1;7].jpg;2]
@@ -23,8 +23,8 @@ $setVar[economia;"user":$optOff[$json[user]];$authorID]
 $elseif[$var[r]==perdeu]
 
 $description[## $toTitleCase[$splitText[4]]
-> **$username** você apostou **$var[valor] moedas** e perdeu, veja o resultado abaixo!
-- Você perdeu **$var[valor] moedas**
+> **$username** você apostou **$numberSeparator[$var[valor]] moedas** e perdeu, veja o resultado abaixo!
+- Você perdeu **$numberSeparator[$var[valor]] moedas**
 > Aposte novamente o mesmo valor usando o botão abaixo.;1]
 $color[$json[bot;cor;azul];1] $color[$json[bot;cor;branco];2] $thumbnail[$authorAvatar;1]
 $image[https://raw.githubusercontent.com/Demom23345/Quazar/main/Database/Imagem/Banner_Painel_Slot_$random[1;4].jpg;2]
