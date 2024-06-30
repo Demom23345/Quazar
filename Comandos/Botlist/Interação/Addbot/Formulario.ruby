@@ -15,3 +15,4 @@ $userChannel[$var[channel]]
 $addButton[no;addbot/cancelar/$authorID;Cancelar;danger;no;$var[id-1]]
 $endasync
 
+$awaitFunc[id/addbot;$authorID;$var[channel]]
