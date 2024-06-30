@@ -4,7 +4,7 @@ $var[valor;$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$rep
 $onlyIf[$var[valor]!=;**<a:lc_erado:1247216925654782116> |** <@$var[user]>, você se esqueceu de colocar um valor na aposta digite novamente.]
 $onlyIf[$isNumber[$var[valor]]==true;**<a:lc_erado:1247216925654782116> |** <@$var[user]>, você tem que apostar um valor valido por exemplo: **10k**, **1000**, **all** e **1.000**]
 $onlyIf[$json[user;moeda]>=$var[valor];**<a:lc_erado:1247216925654782116> |** <@$var[user]>, você não tem toda essa quantidade de moedas para apostar.]
-$onlyIf[$json[user;moeda]>=10;**<a:lc_erado:1247216925654782116> |** <@$var[user]>, você precisa apostar mais que **10 moedas** para apostar.]
+$onlyIf[$var[valor]>=10;**<a:lc_erado:1247216925654782116> |** <@$var[user]>, você precisa apostar mais que **10 moedas** para apostar.]
 
 $if[$var[r]==ganhou]
   
