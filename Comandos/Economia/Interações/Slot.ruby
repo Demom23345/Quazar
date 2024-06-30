@@ -4,8 +4,8 @@ $var[user;$splitText[4]]
 $var[r;$randomText[ganhou;perdeu]]
 $var[t;$splitText[3]]
      
-$if[$json[user;moeda]>=$var[valor]]
-$ephemeral
+$if[$json[user;moeda]<=$var[valor]]
+$ephemeral $removeButtons
 **<a:lc_erado:1247216925654782116> |** <@$var[user]>, você não tem toda essa quantidade de moedas para apostar.
 $else
 
