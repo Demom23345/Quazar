@@ -1,5 +1,5 @@
 $var[user;$authorID] $var[r;$randomText[ganhou;perdeu]]
-$var[valor;$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$message[2];.;;-1];,;;-1];k;000;-1];m;000000;-1];b;000000000;-1];K;000;-1];M;000000;-1];B;000000000;-1];all;$getVar[$var[moeda];$var[user]];-1];ALL;$getVar[$var[moeda];$var[user]];-1]]
+$var[valor;$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$message[2];.;;-1];,;;-1];k;000;-1];m;000000;-1];b;000000000;-1];K;000;-1];M;000000;-1];B;000000000;-1];all;$json[user;moeda];-1];ALL;$json[user;moeda];-1]]
 
 $onlyIf[$var[valor]!=;**<a:lc_erado:1247216925654782116> |** <@$var[user]>, você se esqueceu de colocar um valor na aposta digite novamente.]
 $onlyIf[$isNumber[$var[valor]]==true;**<a:lc_erado:1247216925654782116> |** <@$var[user]>, você tem que apostar um valor valido por exemplo: **10k**, **1000**, **all** e **1.000**]
