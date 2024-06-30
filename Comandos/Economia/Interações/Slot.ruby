@@ -11,7 +11,7 @@ $else
 
 $if[$var[r]==ganhou]
   
-$description[## $toTitleCase[$splitText[4]]
+$description[## $toTitleCase[$splitText[3]]
 > **$username** você apostou **$numberSeparator[$var[valor]] moedas** e ganhou, veja o resultado abaixo!
 - Você recebeu **$numberSeparator[$var[valor]] moedas**
 > Aposte novamente o mesmo valor usando o botão abaixo.;1]
@@ -22,7 +22,7 @@ $setVar[economia;"user":$optOff[$json[user]];$authorID]
 
 $elseif[$var[r]==perdeu]
 
-$description[## $toTitleCase[$splitText[4]]
+$description[## $toTitleCase[$splitText[3]]
 > **$username** você apostou **$numberSeparator[$var[valor]] moedas** e perdeu, veja o resultado abaixo!
 - Você perdeu **$numberSeparator[$var[valor]] moedas**
 > Aposte novamente o mesmo valor usando o botão abaixo.;1]
