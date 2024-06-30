@@ -31,3 +31,4 @@ $setVar[economia;"user":$optOff[$json[user]];$authorID]
 $endif
 
 $addButton[no;slot/$var[valor]/$var[p]/$authorID;Apostar Novamente;primary;no]
+$addButton[no;...;Saldo: $numberSeparator[$json[user;moeda]];secondary;no]
