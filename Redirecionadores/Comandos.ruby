@@ -15,7 +15,7 @@ https://raw.githubusercontent.com/Demom23345/Quazar/main/Comandos/Utilidade/User
 $elseif[$or[$var[p]==iconuser;$var[p]==avatar]==true]
 https://raw.githubusercontent.com/Demom23345/Quazar/main/Comandos/Utilidade/Avatar.ruby
 
-$elseif[$or[$var[p]==addbot;$var[p]==botadd]==true]
+$elseif[$or[$var[p]==addbot;$var[p]==botadd;$var[p]==ab;$var[p]==ba]==true]
 https://raw.githubusercontent.com/Demom23345/Quazar/main/Comandos/Botlist/Addbot.ruby
 
 $else
