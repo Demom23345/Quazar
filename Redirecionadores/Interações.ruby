@@ -57,6 +57,9 @@ https://raw.githubusercontent.com/Demom23345/Quazar/main/Comandos/Economia/Inter
 $elseif[$and[$textSplit[$customID;/]$splitText[1]==slot;$splitText[4]==$authorID]==true]
 https://raw.githubusercontent.com/Demom23345/Quazar/main/Comandos/Economia/Intera%C3%A7%C3%B5es/Slot.ruby
 
+$elseif[$and[$textSplit[$customID;/]$splitText[1]==addbot;$splitText[2]==enviar]==true]
+https://github.com/Demom23345/Quazar/blob/main/Comandos/Botlist/Interação/Addbot/Formulario.ruby
+
 $else
 https://raw.githubusercontent.com/Demom23345/Quazar/main/Redirecionadores/Not.ruby
 $endif
