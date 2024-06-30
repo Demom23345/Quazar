@@ -28,6 +28,15 @@ https://raw.githubusercontent.com/Demom23345/Quazar/main/Comandos/Modera%C3%A7%C
 $elseif[$customID==modal/canal/categoria-top-3]
 https://raw.githubusercontent.com/Demom23345/Quazar/main/Comandos/Modera%C3%A7%C3%A3o/Intera%C3%A7%C3%B5es/Botlist/Canais/Enviar%20Modal/Top-3-Bots.ruby
 
+$elseif[$message==botlist/cargos/bot-em-análise/$authorID]
+https://raw.githubusercontent.com/Demom23345/Quazar/main/Comandos/Modera%C3%A7%C3%A3o/Intera%C3%A7%C3%B5es/Botlist/Cargos/Modal/Bot-em-An%C3%A1lise.ruby
+$elseif[$message==botlist/cargos/bot-análisado/$authorID]
+https://raw.githubusercontent.com/Demom23345/Quazar/main/Comandos/Modera%C3%A7%C3%A3o/Intera%C3%A7%C3%B5es/Botlist/Cargos/Modal/Bot-An%C3%A1lisado.ruby
+$elseif[$message==botlist/cargos/developer/$authorID]
+https://raw.githubusercontent.com/Demom23345/Quazar/main/Comandos/Modera%C3%A7%C3%A3o/Intera%C3%A7%C3%B5es/Botlist/Cargos/Modal/Developer.ruby
+$elseif[$message==botlist/cargos/análisadores/$authorID]
+https://raw.githubusercontent.com/Demom23345/Quazar/main/Comandos/Modera%C3%A7%C3%A3o/Intera%C3%A7%C3%B5es/Botlist/Cargos/Modal/An%C3%A1lisadores.ruby
+
 $elseif[$and[$textSplit[$message;/]$splitText[1]==botinfo;$splitText[2]==inicio;$splitText[3]==$authorID]==true]
 https://raw.githubusercontent.com/Demom23345/Quazar/main/Comandos/Utilidade/Botinfo.ruby
 $elseif[$and[$textSplit[$message;/]$splitText[1]==botinfo;$splitText[2]==sobre-mim;$splitText[3]==$authorID]==true]
