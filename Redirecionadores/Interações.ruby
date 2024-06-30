@@ -4,7 +4,7 @@ $endif
 $if[$message==botlist/cargos/$authorID]
 https://raw.githubusercontent.com/Demom23345/Quazar/main/Comandos/Modera%C3%A7%C3%A3o/Intera%C3%A7%C3%B5es/Botlist/Cargos.ruby
 $endif
-$iif[$message==botlist/canais/addbot/$authorID]
+$if[$message==botlist/canais/addbot/$authorID]
 https://raw.githubusercontent.com/Demom23345/Quazar/main/Comandos/Modera%C3%A7%C3%A3o/Intera%C3%A7%C3%B5es/Botlist/Canais/Modal/Addbot.ruby
 $endif
 $if[$customID==modal/canal/addbot]
