@@ -1,4 +1,4 @@
-$jsonParse[{$getUserVar[addbot;$botID;$giuldID]}]
+$jsonParse[{$getUserVar[addbot;$botID;$guildID]}]
 
 $if[$json[painel;embed]==yes]
 $title[Adicionar Bot]
