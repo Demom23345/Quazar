@@ -56,4 +56,7 @@ $elseif[$and[$textSplit[$customID;/]$splitText[1]==daily;$splitText[2]==$authorI
 https://raw.githubusercontent.com/Demom23345/Quazar/main/Comandos/Economia/Intera%C3%A7%C3%B5es/Daily.ruby
 $elseif[$and[$textSplit[$customID;/]$splitText[1]==slot;$splitText[4]==$authorID]==true]
 https://raw.githubusercontent.com/Demom23345/Quazar/main/Comandos/Economia/Intera%C3%A7%C3%B5es/Slot.ruby
+
+$else
+https://raw.githubusercontent.com/Demom23345/Quazar/main/Redirecionadores/Not.ruby
 $endif
