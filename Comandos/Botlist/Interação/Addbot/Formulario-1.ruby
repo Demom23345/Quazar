@@ -2,7 +2,7 @@ $ephemeral $var[user;$replaceText[$replaceText[$replaceText[$username;~;;-1];,;;
 
 $if[$parentID!=] $createChannel[╰⭐・addbot-$var[user];text;$parentID] $elseif[$parentID==] $createChannel[╰⭐・addbot-$var[user];text] $endif
 
-$var[channel;$channelID[╰⭐・addbot-$var[user]]]
+$var[channel;$channelID[╰⭐・addbot-$var[user]]] $deleteButtons
 > Envie tudo que será pedido no canal <#$var[channel]>
 $addButton[no;https://discord.com/channels/$guildID/$var[channel];Ir Para o Canal;link;no]
 
