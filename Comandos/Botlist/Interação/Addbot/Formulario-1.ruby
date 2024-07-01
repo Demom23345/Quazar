@@ -12,7 +12,7 @@ $editChannelPerms[$var[channel];$authorID;+sendmessages;+readmessages]
 $var[id-1;$sendEmbedMessage[$var[channel];;<a:Loading:1251352348262010892> Informe o ID da aplicação.;;
 > `Nenhuma informação atualmente...`;$json[bot;cor;azul];;;Lembre-se: Você pode cancelar a qualquer momento clicando no botão "cancelar";;;;no;yes]]
 
-$userChannel[$var[channel]]
+$setVar[m;$var[id-1];$authorID]
 $addButton[no;addbot/cancelar/$authorID;Cancelar;danger;no;$var[id-1]]
 
 
