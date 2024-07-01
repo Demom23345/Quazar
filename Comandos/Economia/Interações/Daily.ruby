@@ -1,4 +1,6 @@
 $removeButtons
+$cooldown[5s;]
+
 $if[$getTimestamp<$getVar[daily;$authorID]]
 $ephemeral 
 <a:lc_erado:1247216925654782116> **|** <@$authorID>, você já coletou sua recompensa diaria de hoje, volte amanhã!
