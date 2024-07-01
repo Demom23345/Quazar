@@ -7,6 +7,8 @@ $elseif[$or[$var[p]==claim;$var[p]==resgatar;$var[p]==daily]==true]
 https://raw.githubusercontent.com/Demom23345/Quazar/main/Comandos/Economia/Daily.ruby
 $elseif[$or[$var[p]==slots;$var[p]==slot;$var[p]==bet;$var[p]==aposta;$var[p]==apostar]==true]
 https://raw.githubusercontent.com/Demom23345/Quazar/main/Comandos/Economia/Slot.ruby
+$elseif[$or[$var[p]==pix;$var[p]==pagar;$var[p]==pay]==true]
+https://raw.githubusercontent.com/Demom23345/Quazar/main/Comandos/Economia/Pay.ruby
 
 $elseif[$or[$var[p]==botinfo;$var[p]==bi;$var[p]==infobot]==true]
 https://raw.githubusercontent.com/Demom23345/Quazar/main/Comandos/Utilidade/Botinfo.ruby
